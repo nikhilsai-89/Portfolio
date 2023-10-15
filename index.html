@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fjalla+One&display=swap" rel="stylesheet">
+    <!-- Add other font links as needed -->
+    <title>Portfolio</title>
+    <style>
+        body {
+            font-family: 'Comfortaa', 'Fjalla One', sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        h4 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 20px;
+        }
+
+        .image img {
+            width: 100%;
+            max-width: 400px;
+            height: auto;
+            border-radius: 10px;
+        }
+
+        .image {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+
+        .name {
+            display: flex;
+            flex-direction: column;
+            background-color: #fff;
+            align-items: center;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .name h1 {
+            font-size: 32px;
+            color: #333;
+        }
+
+        .name sub {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .name p {
+            font-size: 18px;
+            color: #555;
+            margin: 10px 0;
+        }
+
+        .aboutme {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .aboutme h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .aboutme p {
+            font-size: 18px;
+            color: #555;
+        }
+
+        .contact ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .contact ul li {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 10px;
+            display: flex;
+            align-items: center;
+            background-color: #f3ecea;
+            border-radius: 5px;
+            padding: 10px;
+        }
+
+        .contact ul li i {
+            font-size: 24px;
+            margin-right: 10px;
+        }
+
+        .edu {
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .edu h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .edu .flex {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .btech, .inter, .ten {
+            flex-basis: calc(33.33% - 20px);
+            background-color: #04aa6d;
+            border-radius: 10px;
+            padding: 20px;
+            margin-top: 20px;
+        }
+
+        .btech h4, .inter h4, .ten h4 {
+            font-size: 20px;
+            color: #fff;
+        }
+
+        .btech p, .inter p, .ten p {
+            font-size: 18px;
+            color: #fff;
+        }
+
+        .skill {
+            background-color: #bac2f0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .skill h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .software ul, .soft ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .software ul li, .soft ul li {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .other {
+            background-color: #ecdcc0;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .other h2 {
+            font-size: 24px;
+            color: #333;
+        }
+
+        .other ul {
+            list-style-type: none;
+            padding: 0;
+        }
+
+        .other ul li {
+            font-size: 18px;
+            color: #555;
+            margin-bottom: 10px;
+        }
+
+        .resume {
+            background-color: #f5bb78;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-top: 20px;
+        }
+
+        .resume h1 {
+            font-size: 32px;
+            color: #333;
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="resume"><h1>PORTFOLIO</h1></div>
+        <div class="name">
+            <div class="image"><img src="PXL_20230217_163249598.MP_3.jpg" alt="Profile Image"></div>
+            <h1>Sai Nikhil Yenumula</h1>
+            <sub>Computer Science Engineer</sub>
+            <p>Dr.no: 131-3-1100, East Bazar, Gorantla, Guntur-522034</p>
+        </div>
+        <div class="aboutme">
+            <h2>About Me</h2>
+            <p>An individual and self-motivated engineering student who loves to learn through exploring new things. Currently looking forward to providing my service in the software industry.</p>
+            <div class="contact">
+                <ul>
+                    <li><i class="ri-mail-fill"></i> 21pa1a05j7@vishnu.edu.in</li>
+                    <li><i class="ri-phone-fill"></i> +91 9701035036</li>
+                    <li><i class="ri-map-pin-fill"></i> Andhra Pradesh, India</li>
+                    <li><i class="ri-linkedin-box-fill"></i>linkedin.com/in/yenumula-sai-nikhil</li>
+                </ul>
+            </div>
+        </div>
+        <div class="edu">
+            <h2>Education Details</h2>
+            <div class="flex">
+                <div class="btech">
+                    <h4>Undergraduation</h4>
+                    <p>Vishnu Institute Of Technology, JNTUK University, Bhimavaram, Andhra Pradesh.</p>
+                </div>
+                <div class="inter">
+                    <h4>Intermediate Studies</h4>
+                    <p>FIITJEE Junior College, BIEAP Board, Vijayawada, Andhra Pradesh.</p>
+                </div>
+                <div class="ten" style="margin-left: 370px;">
+                    <h4>Secondary Education</h4>
+                    <p>Dr.K.K.R's Gowtham Concept School, BSEAP Board, Gudivada, Andhra Pradesh.</p>
+                </div>
+            </div>
+        </div>
+        <div class="skill">
+            <h2>Technical and Soft Skills</h2>
+            <div class="software">
+                <h4>Technical Skills</h4>
+                <ul>
+                    <li>Java Programming</li>
+                    <li>C Programming</li>
+                    <li>Python Programming</li>
+                    <li>Web Development: HTML, CSS, JavaScript</li>
+                </ul>
+            </div>
+            <div class="soft">
+                <h4>Soft Skills</h4>
+                <ul>
+                    <li>Teamwork</li>
+                    <li>Self-Motivated</li>
+                    <li>Multi-tasking</li>
+                    <li>Time Management</li>
+                </ul>
+            </div>
+        </div>
+        <div class="other">
+            <h2>Personal Interests</h2>
+            <ul>
+                <li>Playing Piano</li>
+                <li>Travelling</li>
+                <li>Exploring & Experimenting on science-oriented activities</li>
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

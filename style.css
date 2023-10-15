@@ -1,0 +1,131 @@
+
+    h4{
+        font-size: 30px;
+        color: black;
+    }
+    h2{
+        font-size: 30px;
+    }
+    .image img{
+        width: 400px;
+        height: 450px;
+
+    }
+    .image{
+        background-color: #b4b2b2;
+        margin-left: 220px;
+        padding: 25px;
+        border-radius: 30px;
+    }
+    .name{
+        display: flex;
+        color: black;
+        background-color: #F3ECEA;
+        /*display: flex;*/
+        align-items: center;
+        justify-content: space-evenly;
+        /*text-align: center;*/
+        padding: 60px;
+        font-family: 'Comfortaa', cursive;
+        font-family: 'Fjalla One', sans-serif;
+        border-radius: 50px;
+    }
+    .aboutme{
+        background-color: #D9EEE1;
+        font-family: 'Asap', sans-serif;
+        font-family: 'Comfortaa', cursive;
+        font-family: 'Fjalla One', sans-serif;
+        padding: 30px;
+        margin-top: 0%;
+        border-radius: 50px;
+    }
+    .aboutme ul{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 50px;
+    }
+    .aboutme .contact ul{
+        padding-left: auto;
+        padding-right: auto;
+    }
+    .aboutme ul li{
+        display: flex;
+        align-items: center;
+        padding: 100px;
+    }
+    .aboutme h2,p{
+        margin-left: 30px;
+    }
+    .contact ul{
+        padding: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+    }
+    .edu{
+        background-color: #282A35;
+        font-family: 'Asap', sans-serif;
+        font-family: 'Comfortaa', cursive;
+        font-family: 'Fjalla One', sans-serif;
+        font-family: 'Lora', serif;
+        font-family: 'Ubuntu', sans-serif;
+        color: white;
+        padding: 30px;
+
+        border-radius: 50px;
+    }
+    .flex{
+        display: flex ;
+        align-items: center;
+
+        justify-content: space-around;
+    }
+    .btech,.inter,.ten{
+        background-color: #04AA6D;
+        border-radius: 20px;
+        padding: 50px;
+    }
+    p{
+        font-size: 20px;
+    }
+    .stu{
+        margin: auto;
+    }
+    .skill{
+        background-color: #bac2f0;
+        padding: 30px;
+        border-radius: 50px;
+        color: #000000;
+        font-family: 'Asap', sans-serif;
+        font-family: 'Comfortaa', cursive;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 20px;
+    }
+    .soft ul{
+        
+        justify-content: space-around;
+        align-items: center;
+        font-family: 'Asap', sans-serif;
+        font-family: 'Comfortaa', cursive;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 20px;
+    }
+    .other{
+        padding: 30px;
+        border-radius: 50px;
+        background-color: rgb(236, 195, 120);
+        font-family: 'Asap', sans-serif;
+        font-family: 'Comfortaa', cursive;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: 25px;
+    }
+    .resume{
+        background-color: #f5f078;
+        border-radius: 50px;
+        padding: 30px;
+        font-family: 'Asap', sans-serif;
+        font-family: 'Comfortaa', cursive;
+        font-family: 'Fjalla One', sans-serif;
+        font-size: x-large;
+    }
